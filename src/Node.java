@@ -14,7 +14,7 @@ public class Node {
     public int yPos;
 
 
-    public int getFCoSt(){
+    public int getFCost(){
         return hCost + gCost;
     }
 
